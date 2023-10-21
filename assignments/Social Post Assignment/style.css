@@ -1,0 +1,101 @@
+:root{
+    --tweet-bg : #fff;
+    --tweet-border :#cfd9de;
+    --name-color:#000;
+    --metadata-color:#71767b;
+    --message-color:#0f1419;
+    --action-count-color:#536471;
+}
+
+
+html{
+    box-sizing: border-box;
+}
+
+* , *::after , *::before {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.tweet-parent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tweet {
+    background-color: var(--tweet-bg) ;
+    border-radius: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--tweet-border);
+    align-self: center;
+    
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tweet img {
+    width: 48px;
+    height: 48px;
+    border-radius: 70%;
+    margin-right: 12px;
+    align-self: flex-start;
+
+    
+}
+
+.name{
+    color:var(--name-color);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right:4px ;
+
+}
+
+.metadata {
+    color: var(--metadata-color);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.message {
+    color:var(--message-color);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.action-row{
+    max-width: 425px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.action-row-message{
+    color:var(--action-count-color);
+    
+}
+
+.retweet-count{
+    color:var(--action-count-color);
+}
+
+.like-count{
+    color:var(--action-count-color);
+}
+
+.icon {
+    margin-right: 12px;
+}
+.icon:last-child {
+    margin: 0;
+}
