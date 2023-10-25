@@ -6,3 +6,8 @@ html{
 * , *::after , *::before {
     box-sizing: inherit;
 }
+
+div {
+    display: grid;
+    
+}
