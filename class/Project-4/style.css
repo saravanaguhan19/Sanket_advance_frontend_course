@@ -1,3 +1,5 @@
-body{
-    background-color: aquamarine;
+.moving {
+    width:50%;
+    height:400px;
+    background-color: blue;
 }
