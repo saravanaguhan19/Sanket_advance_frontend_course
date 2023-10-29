@@ -11,3 +11,9 @@
     height: 3rem;
     background-color: white;
   }
+
+  .product-image{
+    max-height: 200px;
+    max-width: 250px;
+    /* margin: 0 auto; */
+  }
