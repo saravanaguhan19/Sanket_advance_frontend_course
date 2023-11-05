@@ -75,7 +75,7 @@ section {
     text-transform: uppercase;
 }
 
-.first-image div {
+.first-image span {
     color:black;
     background-color: #111;
     padding: 20px;
